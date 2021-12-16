@@ -18,3 +18,4 @@ int firstBadVersion(int n) {
     }
     return high;
 }
+//二分法两个初始值都超过限定大小的一半会发生溢出，应使用 low+(high-low)/2作为mid
